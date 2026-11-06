@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="player_empty_title">Nada tocando</string>
+    <string name="player_empty_message">Escolha uma música para abrir o player.</string>
+    <string name="player_previous">Música anterior</string>
+    <string name="player_next">Próxima música</string>
+    <string name="player_shuffle_on">Desativar ordem aleatória</string>
+    <string name="player_shuffle_off">Ativar ordem aleatória</string>
+    <string name="player_repeat_off">Ativar repetição</string>
+    <string name="player_repeat_all">Repetir a fila</string>
+    <string name="player_repeat_one">Repetir esta música</string>
+    <string name="player_queue">Fila de reprodução</string>
+    <string name="player_queue_title">Fila</string>
+    <string name="player_favorite">Favoritar %1$s</string>
+    <string name="player_unfavorite">Remover %1$s dos favoritos</string>
+    <string name="player_position">Posição da música</string>
+    <string name="player_buffering">Carregando</string>
+    <string name="player_error_offline">Sem conexão para reproduzir esta música.</string>
+    <string name="player_error_source">Esta música não tem um áudio reproduzível.</string>
+    <string name="player_error_generic">Não foi possível reproduzir esta música.</string>
+    <string name="player_favorite_missing">Esta música não está salva no aparelho e não pôde ser favoritada.</string>
+    <string name="player_favorite_error">Não foi possível atualizar os favoritos.</string>
+</resources>
