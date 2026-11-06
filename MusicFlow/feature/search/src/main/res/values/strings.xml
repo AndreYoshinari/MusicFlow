@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_label">Buscar</string>
+    <string name="search_placeholder">Música, artista ou álbum</string>
+    <string name="search_clear">Limpar busca</string>
+    <string name="search_artists">Artistas</string>
+    <string name="search_tracks">Músicas</string>
+    <string name="search_idle_title">O que você quer ouvir?</string>
+    <string name="search_idle_message">Digite uma música ou um artista.</string>
+    <string name="search_empty_title">Nenhum resultado</string>
+    <string name="search_empty_message">Não encontramos músicas para essa busca.</string>
+    <string name="search_error_title">Não foi possível buscar</string>
+    <string name="search_error_offline">Sem conexão. Tente de novo quando a rede voltar.</string>
+    <string name="search_error_generic">Algo saiu do esperado. Tente outra vez.</string>
+    <string name="search_artist_error_title">Não foi possível carregar os artistas</string>
+    <string name="search_retry">Tentar de novo</string>
+</resources>
