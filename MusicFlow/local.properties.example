@@ -1,0 +1,5 @@
+# Copie este arquivo para local.properties, ou acrescente a linha ao local.properties
+# que o Android Studio já criou. Esse arquivo não deve ser versionado.
+#
+# O client_id é emitido em https://devportal.jamendo.com/ depois de criar uma aplicação.
+jamendo.client.id=
