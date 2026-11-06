@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="library_tab_favorites">Favoritos</string>
+    <string name="library_tab_playlists">Playlists</string>
+    <string name="library_tab_recent">Recentes</string>
+    <string name="library_empty_favorites_title">Nenhum favorito</string>
+    <string name="library_empty_favorites_message">As músicas que você favoritar aparecem aqui.</string>
+    <string name="library_empty_playlists_title">Nenhuma playlist</string>
+    <string name="library_empty_playlists_message">Crie uma playlist para organizar suas músicas.</string>
+    <string name="library_empty_recent_title">Nada por aqui ainda</string>
+    <string name="library_empty_recent_message">As músicas que você ouvir aparecem aqui.</string>
+    <string name="library_error_title">Não foi possível carregar</string>
+    <string name="library_error_offline">Sem conexão. Os dados salvos neste aparelho continuam disponíveis.</string>
+    <string name="library_error_generic">Algo saiu do esperado. Tente outra vez.</string>
+    <string name="library_create_playlist">Nova playlist</string>
+    <string name="library_playlist_name">Nome</string>
+    <string name="library_save">Salvar</string>
+    <string name="library_cancel">Cancelar</string>
+    <string name="library_invalid_name">Escolha um nome para a playlist.</string>
+    <string name="library_remove_favorite">Remover %1$s dos favoritos</string>
+    <string name="library_add_favorite">Favoritar %1$s</string>
+    <string name="library_favorite_missing">Essa música não está disponível neste aparelho.</string>
+    <plurals name="library_track_count">
+        <item quantity="one">%d música</item>
+        <item quantity="other">%d músicas</item>
+    </plurals>
+</resources>
