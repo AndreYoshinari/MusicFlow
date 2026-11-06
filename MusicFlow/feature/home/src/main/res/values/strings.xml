@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_greeting_morning">Bom dia</string>
+    <string name="home_greeting_afternoon">Boa tarde</string>
+    <string name="home_greeting_night">Boa noite</string>
+    <string name="home_popular">Músicas populares</string>
+    <string name="home_artists">Artistas em destaque</string>
+    <string name="home_albums">Álbuns</string>
+    <string name="home_recent">Tocadas recentemente</string>
+    <string name="home_playlists">Suas playlists</string>
+    <string name="home_empty_popular_title">Nenhuma música popular</string>
+    <string name="home_empty_popular_message">Quando o catálogo responder, as faixas aparecem aqui.</string>
+    <string name="home_empty_artists_title">Nenhum artista em destaque</string>
+    <string name="home_empty_artists_message">Os artistas em alta aparecem nesta fileira.</string>
+    <string name="home_empty_albums_title">Nenhum álbum</string>
+    <string name="home_empty_albums_message">Os álbuns do catálogo aparecem nesta fileira.</string>
+    <string name="home_empty_recent_title">Nada por aqui ainda</string>
+    <string name="home_empty_recent_message">As músicas que você ouvir aparecem nesta fileira.</string>
+    <string name="home_empty_playlists_title">Nenhuma playlist</string>
+    <string name="home_empty_playlists_message">Crie uma playlist para vê-la neste atalho.</string>
+    <string name="home_error_title">Não foi possível carregar</string>
+    <string name="home_error_offline">Sem conexão. Tente de novo quando a rede voltar.</string>
+    <string name="home_error_generic">Algo saiu do esperado. Tente outra vez.</string>
+    <string name="home_retry">Tentar de novo</string>
+    <plurals name="home_track_count">
+        <item quantity="one">%d faixa</item>
+        <item quantity="other">%d faixas</item>
+    </plurals>
+</resources>

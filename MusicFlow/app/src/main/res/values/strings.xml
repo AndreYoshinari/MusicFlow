@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MusicFlow</string>
+    <string name="destination_home">Início</string>
+    <string name="destination_search">Busca</string>
+    <string name="destination_library">Biblioteca</string>
+    <string name="destination_playlist">Playlist</string>
+    <string name="destination_artist">Artista</string>
+    <string name="destination_track">Faixa</string>
+    <string name="destination_album">Álbum</string>
+    <string name="destination_player">Tocando agora</string>
+    <string name="playback_error_offline">Sem conexão para reproduzir esta música.</string>
+    <string name="playback_error_source">Esta música não tem um áudio reproduzível.</string>
+    <string name="playback_error_generic">Não foi possível reproduzir esta música.</string>
+    <string name="navigate_back">Voltar</string>
+    <string name="playlist_details_label">Playlist %1$d</string>
+    <string name="artist_details_label">Artista %1$d</string>
+    <string name="track_details_label">Faixa %1$d</string>
+    <string name="album_details_label">Álbum %1$d</string>
+</resources>

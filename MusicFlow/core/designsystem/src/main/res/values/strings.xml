@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="musicflow_play">Reproduzir</string>
+    <string name="musicflow_pause">Pausar</string>
+    <string name="musicflow_loading">Carregando</string>
+    <string name="musicflow_retry">Tentar de novo</string>
+    <string name="musicflow_playback_progress">Progresso da reprodução</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="playlist_play">Reproduzir</string>
+    <string name="playlist_rename">Renomear</string>
+    <string name="playlist_delete">Excluir</string>
+    <string name="playlist_add">Adicionar música</string>
+    <string name="playlist_save">Salvar</string>
+    <string name="playlist_cancel">Cancelar</string>
+    <string name="playlist_name">Nome</string>
+    <string name="playlist_delete_title">Excluir playlist</string>
+    <string name="playlist_delete_message">A playlist %1$s será apagada deste aparelho.</string>
+    <string name="playlist_empty_title">Playlist vazia</string>
+    <string name="playlist_empty_message">Adicione músicas que já estão nos seus favoritos.</string>
+    <string name="playlist_no_candidates">Favorite uma música para adicioná-la aqui.</string>
+    <string name="playlist_error_title">Não foi possível abrir a playlist</string>
+    <string name="playlist_error_offline">Sem conexão. Esta playlist continua salva neste aparelho.</string>
+    <string name="playlist_error_generic">Algo saiu do esperado. Tente outra vez.</string>
+    <string name="playlist_invalid_name">Escolha um nome para a playlist.</string>
+    <string name="playlist_duplicate">Essa música já está na playlist.</string>
+    <string name="playlist_empty_playback">Adicione músicas para reproduzir esta playlist.</string>
+    <string name="playlist_remove_track">Remover %1$s</string>
+</resources>
