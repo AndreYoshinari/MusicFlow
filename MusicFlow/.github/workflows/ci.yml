@@ -1,0 +1,74 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  verificar:
+    name: Compilação, testes e APK debug
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v6
+
+      - name: Configurar JDK 25
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "25"
+
+      - name: Configurar Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: platforms;android-37
+
+      - name: Configurar Gradle
+        uses: gradle/actions/setup-gradle@v6
+        with:
+          cache-provider: basic
+          dependency-graph: disabled
+
+      - name: Verificar compilação
+        run: |
+          chmod +x ./gradlew
+          ./gradlew compileDebugKotlin compileKotlin compileDebugJavaWithJavac compileJava
+
+      - name: Executar testes unitários
+        run: ./gradlew test
+
+      - name: Executar Android Lint
+        run: ./gradlew lintDebug
+
+      - name: Gerar APK debug
+        run: ./gradlew assembleDebug
+
+      - name: Publicar relatórios de teste e lint
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: relatorios
+          if-no-files-found: ignore
+          retention-days: 14
+          path: |
+            **/build/reports/tests/**
+            **/build/reports/lint-results-debug.html
+            **/build/reports/lint-results-debug.xml
+
+      - name: Publicar APK debug
+        if: success()
+        uses: actions/upload-artifact@v7
+        with:
+          name: musicflow-debug
+          if-no-files-found: error
+          retention-days: 14
+          path: app/build/outputs/apk/debug/*.apk
